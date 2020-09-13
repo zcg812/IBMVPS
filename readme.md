@@ -22,7 +22,7 @@
 # 1.2. V2ray一键安装代码(9月12日 00:01 更新)
 
 ```
-wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/bigfangfang/IBMVPS/master/install.sh && chmod +x install.sh  && ./install.sh
+wget --no-check-certificate -O install.sh https://github.com/cyberxsboy/IBMVPS/master/install.sh && chmod +x install.sh  && ./install.sh
 
 ```
 
@@ -38,7 +38,7 @@ wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/bigf
 ### 2. 利用Github创建每周开关机一次任务
 
 ##### 2.1. 项目地址
-> https://github.com/bigfangfang/IBMVPS  
+> https://github.com/cyberxsboy/IBMVPS
 
 在项目里点击Fork，这样就复制程序到自己的Github里面
 
@@ -106,11 +106,12 @@ fetch(request)
 ### 5. 找回Vmess链接  
 
 
-wget --no-check-certificate -O vmess.sh https://raw.githubusercontent.com/bigfangfang/IBMVPS/master/vmess.sh && chmod +x vmess.sh  && ./vmess.sh
+wget --no-check-certificate -O vmess.sh https://github.com/cyberxsboy/IBMVPS/master/vmess.sh && chmod +x vmess.sh  && ./vmess.sh
 
 
 =============================================================  
 =============================================================  
+原作者代码库：https://github.com/bigfangfang/IBMVPS
 请注意如果出现2个或者3个红色的FAILED就说明你的VMESS连接是无法连接外网的。这个时候需要去排查问题，可以通过这个影片去仔细看看可能能找到答案 https://bit.ly/2ZjVCkN  
 或者观看YouTube影片 IBM Cloud VPS 详细分享：https://bit.ly/3ibq1JI
 如果你看到只有一个红色的Failed 那么恭喜你大概率你的Vmess连接有效！Vmess导入客户端后，请务必将域名中bigfang更改为你的应用程序名称！请务必根据在cloudflare中加速  
