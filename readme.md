@@ -1,19 +1,3 @@
-# 免费申请IBM 无使用期限VPS 无需信用卡一个邮箱就可以申请
-
-自从谷歌2020年8月份开始从原来365天的免费试用的正常变更为90天的试用后，看看是否有其他更好的替代薅羊毛方案！
-
-今天我们讲3个方面的内容
-
-1. 我们利用开源免费的Cloud Foundry项目来搭建V2ray；  
-   YouTube视频教程：https://bit.ly/3ibq1JI    
-2. IBM Cloud Foundry 10天没有操作的话就是关机，所以利用Github来每周开关机一次避免关机；
-   YouTube视频教程：https://bit.ly/3jVGCkY  
-
-3. Cloudflare worker项目来给V2ray加速；
-
-完成第一部分 就可以使用了，如果进阶可以继续完成第二 第三部分
-让我们开始吧！
-
 ### 1. 我们利用开源免费的Cloud Foundry项目来搭建V2ray
 
 ##### 1.1. 申请IBM免费VPS
@@ -112,20 +96,4 @@ wget --no-check-certificate -O vmess.sh https://github.com/cyberxsboy/IBMVPS/mas
 =============================================================  
 =============================================================  
 原作者代码库：https://github.com/bigfangfang/IBMVPS
-请注意如果出现2个或者3个红色的FAILED就说明你的VMESS连接是无法连接外网的。这个时候需要去排查问题，可以通过这个影片去仔细看看可能能找到答案 https://bit.ly/2ZjVCkN  
-或者观看YouTube影片 IBM Cloud VPS 详细分享：https://bit.ly/3ibq1JI
-如果你看到只有一个红色的Failed 那么恭喜你大概率你的Vmess连接有效！Vmess导入客户端后，请务必将域名中bigfang更改为你的应用程序名称！请务必根据在cloudflare中加速  
-我的电报：bigfangfang  
-电报群交流群：https://t.me/dafangbigfang 群里有很多小伙伴都会帮你  
-电报频道：https://t.me/dafangbigfangC  
-感谢 @CCChieh  
-请务必保存好vmess连接目前没有找回的方法  
-
-++++++++++++++++++++++++++++  
-小白手把手教程：https://bit.ly/34IdWaZ  
-IBMVPS搭建过程中的一些问题解答：https://bit.ly/2ZjVCkN  
-大方bigfangYouTube频道：https://bit.ly/332QGCa  
-TG：@bigfangfang  
-TG群：https://t.me/dafangbigfang  
-TGbigfang频道：https://t.me/dafangbigfangC  
 
