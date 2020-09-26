@@ -52,6 +52,7 @@ cd ..
     echo "YouTube IBMVPS教程：https://bit.ly/3ibq1JI"
     echo "Thanks @CCChieh @不愿透露神秘大佬"
     echo ""
+    
 echo 配置信息
 echo 地址: $domain
 echo UUID: $uuid
